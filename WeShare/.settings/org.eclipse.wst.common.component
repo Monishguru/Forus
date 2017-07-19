@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-modules id="moduleCoreId" project-version="1.5.0">
+	<wb-module deploy-name="WeShare">
+		<property name="context-root" value="WeShare"/>
+		<wb-resource deploy-path="/WEb-INF/classes" source-path="/src"/>
+		<wb-resource deploy-path="/" source-path="/WebContent"/>
+		<wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+	</wb-module>
+</project-modules>
