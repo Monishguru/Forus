@@ -53,8 +53,15 @@ public class WeShareController {
 		if (null != req.getSession()) {
 			req.getSession().invalidate();
 		}
-		System.out.println("User Registered "+register.getFirstname());
-		return "userHome";
+String successFlag="LoginRegistration";		
+boolean loginValidationResult=false;
+String userName=login.getUsername();
+String password=login.getPassword();
+//loginValidationResult=
+if (loginValidationResult){
+	successFlag="userHome";
+}
+return successFlag;
 	
 	}
 
